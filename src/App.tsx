@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   CheckCircle2, 
   Instagram, 
@@ -61,7 +61,7 @@ const Hero = () => (
             href="https://wa.me/5527988958668?text=VIM%20DO%20SITE"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.02, brightness: 1.1 }}
+            whileHover={{ scale: 1.02, filter: "brightness(1.1)" }}
             whileTap={{ scale: 0.98 }}
             className="relative overflow-hidden bg-ouro text-void px-8 py-5 rounded-2xl font-black text-lg flex items-center justify-center gap-3 transition-all shadow-[0_8px_0_0_#b38b00] active:shadow-[0_2px_0_0_#b38b00] active:translate-y-[6px] group hover:shadow-[0_0_30px_rgba(217,176,103,0.3)]"
           >
